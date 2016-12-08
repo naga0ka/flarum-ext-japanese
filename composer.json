@@ -2,6 +2,7 @@
     "name": "naga0ka/flarum-ext-japaneselang",
     "description": "Japanese language pack",
     "type": "flarum-extension",
+    "keywords": ["locale"],
     "require": {
         "flarum/core": "^0.1.0-beta.6"
     },
@@ -13,6 +14,9 @@
         }
     ],
     "extra": {
+	"branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
 	"flarum-extension": {
             "title": "Japanese",
             "icon": {
