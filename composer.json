@@ -1,10 +1,10 @@
 {
-    "name": "naga0ka/flarum-ext-japaneselang",
+    "name": "naga0ka/flarum-ext-japanese",
     "description": "Japanese language pack",
     "type": "flarum-extension",
     "keywords": ["locale"],
     "require": {
-        "flarum/core": "^0.1.0-beta.6"
+        "flarum/core": "^0.1.0-beta.5"
     },
     "license": "MIT",
     "authors": [
