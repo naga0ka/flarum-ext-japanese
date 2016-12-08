@@ -1,4 +1,4 @@
-core:
+﻿core:
 
   ##
   # UNIQUE KEYS - The following keys are used in only one location each.
@@ -144,7 +144,7 @@ core:
       rename_discussions_label: ディスカッション名を変更
       reply_to_discussions_label: ディスカッションへ返信
       sign_up_label: サインアップ
-      start_discussions_label: ディスカッションを開始
+      start_discussions_label: 新規ディスカッション
       view_discussions_label: ディスカッションを閲覧
       view_post_ips_label: 投稿IPアドレスの表示
 
