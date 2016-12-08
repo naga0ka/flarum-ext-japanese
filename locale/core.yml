@@ -517,7 +517,7 @@ core:
     settings: 設定
     sign_up: サインアップ
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: ディスカッションを始める
+    start_a_discussion: 新規ディスカッション
     username: ユーザー名
     write_a_reply: 返信する...
     you: あなた                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
