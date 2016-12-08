@@ -1,0 +1,2 @@
+# flarum-ext-japaneselang
+Japnese 
