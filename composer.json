@@ -30,11 +30,5 @@
             "code": "ja",
             "title": "Japanese"
         }
-    },
-    "repositories": [
-        {
-            "type": "flarum-extension",
-            "url": "https://github.com/naga0ka/flarum-ext-japanese.git"
-        }
-    ],
+    }
 }
