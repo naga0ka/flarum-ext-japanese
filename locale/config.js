@@ -61,5 +61,3 @@ moment.Locale('ja', {
         yy : '%d年'
     }
 });
-
-})));
