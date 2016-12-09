@@ -40,12 +40,15 @@ moment.locale('ja', {
     y : '1年',
     yy : '%d年'
   },
-  ordinalParse: /\d{1,2}(日|)/,
-  ordinal: function (number) {
-    return number + (number === 1 ? '日' : '');
-  },
-  week: {
-    dow: 0, // Monday is the first day of the week.
-    doy: 4  // The week that contains Jan 4th is the first week of the year.
-  }
+  ordinalParse : /\d{1,2}日/,
+    ordinal : function (number, period) {
+        switch (period) {
+            case 'd':
+            case 'D':
+            case 'DDD':
+                return number + '日';
+            default:
+                return number;
+        }
+    }
 });
