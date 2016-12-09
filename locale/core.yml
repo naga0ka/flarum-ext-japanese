@@ -48,13 +48,13 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "これは<strong>ベータ版</strong>のソフトウェアです。商用として使うことはできません。"
+      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production.(商用利用不可)"
       contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
       extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
       features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
       support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
       troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
-      version_text: "Flarumを試してくれてありがとう! あなたの現在のバージョン {version}."
+      version_text: "Thanks for trying out Flarum! You are running version {version}."
       welcome_text: "Flarum Betaへようこそ!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -85,17 +85,17 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       account_heading: SMTP Account
-      addresses_heading: Addresses
-      driver_label: Driver
-      encryption_label: Encryption
+      addresses_heading: メールアドレス
+      driver_label: Driver("SMTP"推奨)
+      encryption_label: 暗号化方式(SSL/TLS)
       from_label: Sender
       heading: => core.ref.email
-      host_label: Host
+      host_label: ホスト名
       password_label: => core.ref.password
-      port_label: Port
+      port_label: ポート番号
       server_heading: SMTP Server
       submit_button: => core.ref.save_changes
-      text: Configure the SMTP settings and addresses your forum will use to send email.
+      text: メール利用のためにSMTP情報を設定します。
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.

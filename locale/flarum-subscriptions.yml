@@ -16,7 +16,7 @@ flarum-subscriptions:
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
       unfollow_button: フォロー解除
-      unignore_button: Unignore
+      unignore_button: ブロック解除
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: フォロー
+    following: フォロー中
+    ignoring: ブロック中

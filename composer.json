@@ -2,17 +2,21 @@
     "name": "naga0ka/flarum-ext-japanese",
     "description": "Japanese language pack",
     "type": "flarum-extension",
-    "keywords": ["locale"],
+    "keywords": ["locale","flarum"],
     "require": {
         "flarum/core": "^0.1.0-beta.6"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "y.nagaoka",
+            "name": "yuji nagaoka",
             "email": "y.nagaoka77@gmail.com"
         }
     ],
+    "support": {
+        "issues": "https://github.com/naga0ka/flarum-ext-japanese/issues",
+        "source": "https://github.com/naga0ka/flarum-ext-japanese"
+    },
     "extra": {
 	"branch-alias": {
             "dev-master": "0.1.x-dev"
