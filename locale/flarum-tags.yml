@@ -17,7 +17,7 @@ flarum-tags:
       delete_tag_button: タグを削除
       delete_tag_confirmation: "本当にこのタグを削除してもよろしいですか？タグに登録されている投稿は削除されません。"
       description_label: 説明
-      hide_label: 全てのディスカッションから非表示にする
+      hide_label: 全てのFAQから非表示にする
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
       slug_label: スラッグ
@@ -39,14 +39,14 @@ flarum-tags:
     tag_settings:
       range_separator_text: " to "
       required_primary_heading: プライマリタグの選択が必要です
-      required_primary_text: ディスカッションに適用できるプライマリタグの最小数と最大数を入力します
+      required_primary_text: FAQに適用できるプライマリタグの最小数と最大数を入力します
       required_secondary_heading: 必要なセカンダリタグの数
-      required_secondary_text: ディスカッションに適用できるセカンダリタグの最小数と最大数を入力します。
+      required_secondary_text: FAQに適用できるセカンダリタグの最小数と最大数を入力します。
       title: タグ設定
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "タグは、ディスカッションを分類するために使用されます。プライマリタグは従来のフォーラムカテゴリのようなもので、2つのレベルの階層に配置できます。セカンダリタグには階層や順序はなく、カテゴリ化に役立ちます"
+      about_tags_text: "タグは、FAQを分類するために使用されます。プライマリタグは従来のフォーラムカテゴリのようなもので、2つのレベルの階層に配置できます。セカンダリタグには階層や順序はなく、カテゴリ化に役立ちます"
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: プライマリタグ
       secondary_heading: セカンダリタグ
@@ -61,7 +61,7 @@ flarum-tags:
       choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
       edit_title: "{title} のタグを編集"
       submit_button: => core.ref.okay
-      title: ディスカッションにつけるタグを選択してください
+      title: FAQにつけるタグを選択してください
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:

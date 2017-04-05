@@ -44,7 +44,7 @@ core:
       saved_message: 変更が保存されました.
       submit_button: => core.ref.save_changes
       welcome_banner_heading: ウェルカムバナー
-      welcome_banner_text: フォーラムにやってきたユーザーにウェルカムを表示しましょう。全てのディスカッションのページにこの文が出力されます。
+      welcome_banner_text: フォーラムにやってきたユーザーにウェルカムを表示しましょう。全てのFAQのページにこの文が出力されます。
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -132,8 +132,8 @@ core:
       allow_renaming_label: ラベル名の変更を許可
       allow_post_editing_label: 投稿の変更を許可
       create_heading: 作成
-      delete_discussions_forever_label: ディスカッションを完全に削除
-      delete_discussions_label: ディスカッションを削除
+      delete_discussions_forever_label: FAQを完全に削除
+      delete_discussions_label: FAQを削除
       delete_posts_forever_label: 投稿を完全に削除
       edit_and_delete_posts_label: 投稿の編集・削除
       global_heading: Global
@@ -141,11 +141,11 @@ core:
       new_group_button: 新しいグループ
       participate_heading: 参加
       read_heading: 閲覧
-      rename_discussions_label: ディスカッション名を変更
-      reply_to_discussions_label: ディスカッションへ返信
+      rename_discussions_label: FAQ名を変更
+      reply_to_discussions_label: FAQへ返信
       sign_up_label: サインアップ
-      start_discussions_label: 新規ディスカッション
-      view_discussions_label: ディスカッションを閲覧
+      start_discussions_label: 新規FAQ
+      view_discussions_label: FAQを閲覧
       view_post_ips_label: 投稿IPアドレスの表示
 
     # These translations are used in the dropdown menus on the Permissions page.
@@ -196,10 +196,10 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: 投稿を書く...
-      discard_confirmation: "ディスカッションへの投稿がありません。 破棄しますか?"
-      submit_button: ディスカッションをはじめる
+      discard_confirmation: "FAQへの投稿がありません。 破棄しますか?"
+      submit_button: FAQをはじめる
       title: => core.ref.start_a_discussion
-      title_placeholder: ディスカッション名
+      title_placeholder: FAQ名
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -218,19 +218,19 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: 返信できません
-      cannot_reply_text: このディスカッションに返信する権限がありません。.
+      cannot_reply_text: このFAQに返信する権限がありません。.
       delete_button: => core.ref.delete
-      delete_confirmation: "本当にこのディスカッションを削除してもよろしいですか?"
+      delete_confirmation: "本当にこのFAQを削除してもよろしいですか?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: ログインして返信
       rename_button: 名前変更
-      rename_text: "このディスカッションの新しい名前を入力してください:"
+      rename_text: "このFAQの新しい名前を入力してください:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: ディスカッションがありません。
+      empty_text: FAQがありません。
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 既読にする
       replied_text: "{username} 返信 {ago}"
@@ -267,7 +267,7 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: ディスカッションを開始できません
+      cannot_start_discussion_button: FAQを開始できません
       mark_all_as_read_confirmation: "本当にすべてを既読にしてよろしいですか?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: 更新
@@ -342,7 +342,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: ディスカッション名が変更されました
+      notify_discussion_renamed_label: FAQ名が変更されました
       privacy_disclose_online_label: 自分がオンラインの時にその情報を他ユーザーに表示することを許可する
       privacy_heading: プライバシー
       title: => core.ref.settings
@@ -492,14 +492,14 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: すべてのディスカッション
+    all_discussions: すべてのFAQ
     change_email: メールアドレスの変更
     change_password: パスワードの変更
     confirm_password: パスワードの確認
     confirmation_email_sent: "{email} にアカウント有効化メールを送信しました。 届かない場合は迷惑メールボックスをご確認ください。"
     delete: 削除
     delete_forever: 完全削除
-    discussions: ディスカッション
+    discussions: FAQ
     edit: 編集
     email: Email
     load_more: さらに読み込む
@@ -517,7 +517,7 @@ core:
     settings: 設定
     sign_up: サインアップ
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: 新規ディスカッション
+    start_a_discussion: 新規FAQ
     username: ユーザー名
     write_a_reply: 返信する...
     you: あなた                                     # Referenced by flarum-likes.yml, flarum-mentions.yml

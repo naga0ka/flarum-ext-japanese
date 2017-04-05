@@ -27,7 +27,7 @@ flarum-flags:
       reason_inappropriate_label: 不適切
       reason_inappropriate_text: "この投稿は攻撃的、虐待的、もしくはバイオレンスな場合があります。<a>コミュニティーガイドラインをご覧ください。</a>"
       reason_off_topic_label: "Off-topic"
-      reason_off_topic_text: この投稿は現在のディスカッションと関係がなく、他のディスカッションに移動する必要があります。
+      reason_off_topic_text: この投稿は現在のFAQと関係がなく、他のFAQに移動する必要があります。
       reason_other_label: その他
       reason_spam_label: スパム
       reason_spam_text: この投稿は広告です。
