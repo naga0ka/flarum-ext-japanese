@@ -48,7 +48,7 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production.(商用利用不可)"
+      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
       contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
       extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
       features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
@@ -195,11 +195,11 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: 投稿を書く...
-      discard_confirmation: "FAQへの投稿がありません。 破棄しますか?"
-      submit_button: FAQをはじめる
+      body_placeholder: 内容を入力..
+      discard_confirmation: "FAQの内容がありません。 破棄しますか?"
+      submit_button: 投稿する
       title: => core.ref.start_a_discussion
-      title_placeholder: FAQ名
+      title_placeholder: FAQタイトル
 
     # These translations are used by the composer when editing a post.
     composer_edit:
@@ -223,8 +223,8 @@ core:
       delete_confirmation: "本当にこのFAQを削除してもよろしいですか?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: ログインして返信
-      rename_button: 名前変更
-      rename_text: "このFAQの新しい名前を入力してください:"
+      rename_button: タイトル変更
+      rename_text: "このFAQの新しいタイトルを入力してください:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
@@ -235,7 +235,7 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: FAQがありません。
+      empty_text: 該当するFAQがありません。
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 既読にする
       replied_text: "{username} 返信 {ago}"
@@ -307,7 +307,7 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: 編集
+      edited_text: 更新
       edited_tooltip: "{username} が {ago}に編集しました"
       number_tooltip: "Post #{number}"
 
