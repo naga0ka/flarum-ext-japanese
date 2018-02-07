@@ -415,9 +415,9 @@ core:
 
     # These translations are used to punctuate a series of items.
     series:
-      glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      glue_text: "、 "
+      three_text: "{first} や {second}、 {third}"
+      two_text: "{first} や {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
