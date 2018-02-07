@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: フォロー解除
-      unignore_button: ブロック解除
+      unfollow_button: フォローしない
+      unignore_button: ブロックしない
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -29,7 +29,7 @@ flarum-subscriptions:
     # These translations are used in the Settings page.
     settings:
       follow_after_reply_label: 私が返信したFAQを自動でフォローします
-      notify_new_post_label: フォローされました
+      notify_new_post_label: 自分がフォローしているFAQで新たな投稿があったとき
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
@@ -37,9 +37,9 @@ flarum-subscriptions:
       following_button: => flarum-subscriptions.ref.following
       following_text: すべての返信を通知します。
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: 通知を解除。 FAQリストへ表示しません。
-      not_following_button: フォロー解除
-      not_following_text: "指摘があった場合のみ通知 @mentioned."
+      ignoring_text: 通知しません。 FAQリストにも表示しません。
+      not_following_button: フォローしない
+      not_following_text: "@メンションがあったときのみ通知する"
       notify_alert_tooltip: 新しい投稿がされたときに通知する
       notify_email_tooltip: 新しい投稿がされたときにメールを送信する
 
