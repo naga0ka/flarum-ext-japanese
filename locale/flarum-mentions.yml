@@ -28,8 +28,8 @@ flarum-mentions:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: あなたの投稿への返信があります
-      notify_user_mentioned_label: あなたへのメンションがあります
+      notify_post_mentioned_label: あなたの投稿へ返信されたとき
+      notify_user_mentioned_label: メンションされたとき
 
     # These translations are used in the user profile page and profile popup.
     user:
