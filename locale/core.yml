@@ -424,7 +424,7 @@ core:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: このサイトはブラウザのJavaScriptを有効にすることでより美しく見ることができます。
+      javascript_disabled_message: このサイトは、ブラウザのJavaScriptを有効にすることでより美しく見ることができます。
       load_error_message: サイトを読み込む際に異常が発生しました。
       loading_text: 読み込み中...
 
