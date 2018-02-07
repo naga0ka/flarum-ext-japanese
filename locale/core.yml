@@ -348,7 +348,7 @@ core:
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
       notify_discussion_renamed_label: FAQ名が変更されました
-      privacy_disclose_online_label: 自分がオンラインの時にその情報を他ユーザーに表示することを許可する
+      privacy_disclose_online_label: 自分のオンライン状態を他ユーザーに表示することを許可する
       privacy_heading: プライバシー
       title: => core.ref.settings
 
