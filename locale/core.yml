@@ -454,29 +454,29 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: アカウントを有効化
+      subject: アカウントを有効化する
       body: |
-        {username} さん、こんにちは!
+        {username} さん、こんにちは！
 
-        {forum}へのサインアップのリクエストが送信されました。
+        {forum} への登録のリクエストが送信されました。
 
-        こちらのURLにアクセスすると作成したアカウントを有効化することができます:
+        こちらのURLにアクセスすると、作成したアカウントを有効化することができます:
         {url}
 
-        このメールに身に覚えがない場合は、お手数ですが削除してください。
+        このメールに身に覚えがない場合は、お手数ですがメールを削除してください。
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
       subject: 新しいメールアドレスの確認
       body: |
-        {username} さん、こんにちは!
+        {username} さん、こんにちは！
 
-        {forum} で作成したのアカウントのメールアドレス変更のリクエストが送信されました。
+        {forum} のアカウントで、メールアドレス変更のリクエストが送信されました。
 
         こちらのURLにアクセスするとアカウントのメールアドレスを変更することができます:
         {url}
 
-        このメールに身に覚えがない場合は、お手数ですが削除してください。
+        このメールに身に覚えがない場合は、お手数ですがメールを削除してください。
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -484,12 +484,12 @@ core:
       body: |
         {username} さん、こんにちは!
 
-        あなたの{forum}アカウントのパスワードのリセットリクエストを誰かが送信しました。
+        {forum} のアカウントで、パスワードリセットのリクエストを誰かが（おそらくあなたが）送信しました。
 
-        このURLにアクセスするとアカウントのパスワードをリセットすることができます。:
+        このURLにアクセスするとアカウントのパスワードをリセットすることができます:
         {url}
 
-        このメールに身に覚えがない場合は、お手数ですが削除してください。
+        このメールに身に覚えがない場合は、お手数ですがメールを削除してください。
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
