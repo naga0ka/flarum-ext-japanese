@@ -71,8 +71,8 @@ core:
       icon_label: アイコン
       icon_text: "<a>FontAwesome</a>のフォントアイコンから専用のアイコンを設定することができます。入力する際に'fa-'のプレフィックスは必要ありません。"
       name_label: 名前
-      plural_placeholder: 複数 (e.g. cars)
-      singular_placeholder: 単体 (e.g. car)
+      plural_placeholder: 複数形 (例 cars)
+      singular_placeholder: 単数形 (例 car)
       submit_button: => core.ref.save_changes
       title: グループを作成
 
