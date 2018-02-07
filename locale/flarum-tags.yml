@@ -15,7 +15,7 @@ flarum-tags:
     edit_tag:
       color_label: カラー
       delete_tag_button: タグを削除
-      delete_tag_confirmation: "本当にこのタグを削除してもよろしいですか？タグに登録されている投稿は削除されません。"
+      delete_tag_confirmation: "本当にこのタグを削除してもよろしいですか？ タグに登録されている投稿は削除されません。"
       description_label: 説明
       hide_label: 全てのFAQから非表示にする
       name_label: => flarum-tags.ref.name
@@ -57,8 +57,8 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "プライマリタグを選択|Choose {count} primary tags"
-      choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
+      choose_primary_placeholder: "1個のプライマリタグを選択|{count}個のプライマリタグを選択"
+      choose_secondary_placeholder: "1個のセカンダリタグを選択|{count}個のセカンダリタグを選択"
       edit_title: "{title} のタグを編集"
       submit_button: => core.ref.okay
       title: FAQにつけるタグを選択してください
@@ -79,10 +79,10 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} added the {tagsAdded}."
-      added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
-      removed_tags_text: "{username} removed the {tagsRemoved}."
-      tags_text: "{tags} tag|{tags} tags"
+      added_tags_text: "{username} が {tagsAdded} タグを追加しました。"
+      added_and_removed_tags_text: "{username} が {tagsAdded} タグを追加し、 {tagsRemoved} タグを解除しました。"
+      removed_tags_text: "{username} が {tagsRemoved} タグを解除しました。"
+      tags_text: "{tags} タグ|{tags} タグ"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
