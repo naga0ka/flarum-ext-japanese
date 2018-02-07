@@ -356,7 +356,7 @@ core:
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "すでにアカウントをお持ちですか? <a>ログイン</a>"
+      log_in_text: "すでにアカウントをお持ちですか？ <a>ログイン</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
@@ -370,7 +370,7 @@ core:
       avatar_upload_tooltip: アバターをアップロード
       bio_placeholder: 自己紹介をしましょう
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
+      in_discussion_text: "{discussion} にて"
       joined_date_text: "{ago} に参加"
       online_text: オンライン
       posts_load_more_button: => core.ref.load_more
