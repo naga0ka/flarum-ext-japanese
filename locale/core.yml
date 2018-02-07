@@ -196,21 +196,21 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: 内容を入力..
-      discard_confirmation: "FAQの内容がありません。 破棄しますか?"
+      discard_confirmation: "FAQの内容がありません。破棄しますか?"
       submit_button: 投稿する
       title: => core.ref.start_a_discussion
       title_placeholder: FAQタイトル
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "変更が保存されていません。 廃棄しますか?"
+      discard_confirmation: "変更が保存されていません。廃棄しますか?"
       post_link: "Post #{number} in {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "返信が投稿されていません。 破棄しますか?"
+      discard_confirmation: "返信が投稿されていません。破棄しますか?"
       posted_message: 返信が投稿されました。
       submit_button: 返信する
       view_button: プレビュー
