@@ -119,10 +119,10 @@ core:
       basics_button: 基本設定
       basics_text: "あなたのフォーラムの言語、設定、その他の基本設定を変更します。"
       dashboard_button: ダッシュボード
-      dashboard_text: Your forum at a glance.
+      dashboard_text: あなたのフォーラムの概況をお知らせします。
       email_button: => core.ref.email
       email_text: "メール環境を設定します。"
-      extensions_button: Extensions
+      extensions_button: 拡張機能
       extensions_text: あなたのフォーラムに特別な機能を追加、または新しく機能を作成します。
       permissions_button: 権限
       permissions_text: 権限を設定します。
