@@ -283,8 +283,8 @@ core:
       latest_button: 更新順
       newest_button: 新着順
       oldest_button: 古い順
-      relevance_button: 関連
-      top_button: Top
+      relevance_button: 関連度順
+      top_button: トップ
 
     # These translations are used in the Log In modal dialog.
     log_in:
