@@ -48,13 +48,13 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
-      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
-      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
-      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
-      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
-      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
-      version_text: "Thanks for trying out Flarum! You are running version {version}."
+      beta_warning_text: "本ソフトウェアはもともと<strong>ベータ版</strong>として提供されているものであり、ソフトウェアのテストと改良へのご協力をお願いしています。本番環境では使用するべきではありません"
+      contributing_text: "バグ探し・開発の協力をしたいですか？ <a>編集ドキュメント</a>をお読みください。"
+      extension_text: "拡張機能の開発に興味をお持ちですか？ <a>拡張機能ドキュメント</a>をお読みください。"
+      features_text: "機能の改良のアイデアをお持ちですか？ <a>Featuresタグ</a>をつけてご連絡ください。"
+      support_text: "バグを発見しましたか？ 私たちのフォーラムに、<a>Supportタグ</a>をつけてご報告ください。"
+      troubleshooting_text: "何か問題が発生しましたか？ <a>トラブルシューティング ドキュメント</a>の手順に従ってください。"
+      version_text: "Flarumをお試しいただきありがとうございます！ バージョン {version} をご利用です。"
       welcome_text: "Flarum Betaへようこそ!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
