@@ -320,18 +320,18 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: 元の投稿
-      unread_text: "{count}件 未読"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      now_link: 最新の投稿
+      original_post_link: 最初の投稿
+      unread_text: "{count}件の未読"
+      viewing_text: "{count}件中 {index}番目|{count}件中 {index}番目"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: '元のタイトル: "{old}"'
-      discussion_renamed_text: "{username} は {new}にタイトルを変更しました。"
+      discussion_renamed_text: "{username} は {new} にタイトルを変更しました。"
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} 後"
 
     # These translations are used by the search results dropdown list.
     search:
