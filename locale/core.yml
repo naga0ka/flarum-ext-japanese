@@ -150,14 +150,14 @@ core:
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: 追放
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
+      allow_indefinitely_button: 無期限
+      allow_some_minutes_button: "{count}分間|{count}分間"
+      allow_ten_minutes_button: 10分間
       allow_until_reply_button: 次の返信まで
       everyone_button: 誰でも
       members_button: => core.group.members
-      signup_closed_button: 閉じる
-      signup_open_button: 開く
+      signup_closed_button: クローズド
+      signup_open_button: オープン
 
     # These translations are used in the Settings modal dialog.
     settings:
