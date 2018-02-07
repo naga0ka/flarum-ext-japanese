@@ -183,7 +183,7 @@ core:
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: パスワードリセット用のメールを送信する
-      text: あなたなアカウントのパスワードをリセットするためのURLがメールアドレスに送信されます。
+      text: アカウントのパスワードをリセットするためのURLが、登録メールアドレスに送信されます。
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
