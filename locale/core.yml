@@ -335,7 +335,7 @@ core:
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'すべてのFAQについて "{query}" を検索'
       discussions_heading: => core.ref.discussions
       users_heading: ユーザー
 
