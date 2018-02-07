@@ -9,9 +9,9 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      developer_text: "開発者の方へ。<a>ドキュメントを読んで</a>、オリジナルの拡張機能を作成することが可能です。"
+      install_text: "また、<a>Flarum Community site</a>で拡張機能を探し、Composerを使って手動でインストールすることも可能です。"
+      temporary_text: "近い将来、このダイアログを使って簡単にフォーラムへ拡張機能を追加できるようになります。現在システムを構築中！"
 
     # These translations are used in the Appearance page.
     appearance:
