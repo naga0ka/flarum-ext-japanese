@@ -288,14 +288,14 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "パスワードを忘れましたか?"
-      invalid_login_message: 入力された情報に正しくない情報が含まれています。
+      forgot_password_link: "パスワードをお忘れですか？"
+      invalid_login_message: 入力された情報が正しくありません。
       password_placeholder: => core.ref.password
-      remember_me_label: Remember me for two weeks
-      sign_up_text: "アカウント登録がまだですか? <a>サインアップ</a>してください。"
+      remember_me_label: ログインしたままにする
+      sign_up_text: "アカウント登録がまだですか？ <a>サインアップ</a>してください。"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: ユーザー名 or Email
+      username_or_email_placeholder: ユーザー名またはメールアドレス
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
