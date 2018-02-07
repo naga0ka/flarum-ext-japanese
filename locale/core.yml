@@ -84,18 +84,18 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP Account
+      account_heading: SMTPアカウント
       addresses_heading: メールアドレス
       driver_label: Driver("SMTP"推奨)
       encryption_label: 暗号化方式(SSL/TLS)
-      from_label: Sender
+      from_label: 送信元名
       heading: => core.ref.email
       host_label: ホスト名
       password_label: => core.ref.password
       port_label: ポート番号
-      server_heading: SMTP Server
+      server_heading: SMTPサーバー
       submit_button: => core.ref.save_changes
-      text: メール利用のためにSMTP情報を設定します。
+      text: メール送信用のSMTP情報を設定します。
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
