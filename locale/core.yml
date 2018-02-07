@@ -399,7 +399,7 @@ core:
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[削除済み]"
 
     # These translations are displayed as error messages.
     error:
