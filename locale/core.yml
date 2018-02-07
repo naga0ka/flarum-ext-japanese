@@ -501,7 +501,7 @@ core:
     change_email: メールアドレスの変更
     change_password: パスワードの変更
     confirm_password: パスワードの確認
-    confirmation_email_sent: "{email} にアカウント有効化メールを送信しました。 届かない場合は迷惑メールボックスをご確認ください。"
+    confirmation_email_sent: "{email} にアカウント確認メールを送信しました。 メールが届かない場合は、迷惑メールボックスをご確認ください。"
     delete: 削除
     delete_forever: 完全削除
     discussions: FAQ
@@ -511,7 +511,7 @@ core:
     log_in: ログイン
     log_out: ログアウト
     mark_all_as_read: すべて既読にする
-    next_page: 次ページ
+    next_page: 次のページ
     notifications: 通知
     okay: OK                                     # Referenced by flarum-tags.yml
     password: パスワード
@@ -539,5 +539,5 @@ core:
     guests: ゲスト
     member: メンバー
     members: メンバー
-    mod: モデレータ
-    mods: モデレータ
+    mod: モデレーター
+    mods: モデレーター
