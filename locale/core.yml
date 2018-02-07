@@ -379,9 +379,9 @@ core:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: コントロール
+      button: 操作
       delete_button: => core.ref.delete
-      delete_confirmation: "本当にこのユーザーを削除してもよろしいですか？このユーザーが投稿した内容は全て削除されます。"
+      delete_confirmation: "本当にこのユーザーを削除してもよろしいですか？ このユーザーが投稿した内容は全て削除されます。"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
