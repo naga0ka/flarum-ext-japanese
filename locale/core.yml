@@ -100,7 +100,7 @@ core:
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Extensionを追加
+      add_button: 拡張機能を追加
       settings_button: => core.ref.settings
       uninstall_button: アンインストール
 
