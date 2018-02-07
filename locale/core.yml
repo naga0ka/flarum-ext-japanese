@@ -308,8 +308,8 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       edited_text: 更新
-      edited_tooltip: "{username} が {ago}に編集しました"
-      number_tooltip: "Post #{number}"
+      edited_tooltip: "{username} が {ago} に編集しました"
+      number_tooltip: "{number}番目の投稿"
 
     # These translations are used by the post control buttons.
     post_controls:
