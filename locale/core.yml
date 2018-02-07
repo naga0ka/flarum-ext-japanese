@@ -136,7 +136,7 @@ core:
       delete_discussions_label: FAQを削除
       delete_posts_forever_label: 投稿を完全に削除
       edit_and_delete_posts_label: 投稿の編集・削除
-      global_heading: Global
+      global_heading: 全体
       moderate_heading: モデレート
       new_group_button: 新しいグループ
       participate_heading: 参加
@@ -146,7 +146,7 @@ core:
       sign_up_label: サインアップ
       start_discussions_label: 新規FAQ
       view_discussions_label: FAQを閲覧
-      view_post_ips_label: 投稿IPアドレスの表示
+      view_post_ips_label: 投稿のIPアドレスの表示
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
