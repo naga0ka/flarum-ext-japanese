@@ -9,9 +9,9 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
+      developer_text: "開発者の方へ。<a>ドキュメントを読んで</a>、オリジナルの拡張機能を作成することが可能です。"
+      install_text: "また、<a>Flarum Community site</a>で拡張機能を探し、Composerを使って手動でインストールすることも可能です。"
+      temporary_text: "近い将来、このダイアログを使って簡単にフォーラムへ拡張機能を追加できるようになります。現在システムを構築中！"
 
     # These translations are used in the Appearance page.
     appearance:
@@ -48,13 +48,13 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
-      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
-      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
-      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
-      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
-      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
-      version_text: "Thanks for trying out Flarum! You are running version {version}."
+      beta_warning_text: "本ソフトウェアはもともと<strong>ベータ版</strong>として提供されているものであり、ソフトウェアのテストと改良へのご協力をお願いしています。本番環境では使用するべきではありません"
+      contributing_text: "バグ探し・開発の協力をしたいですか？ <a>編集ドキュメント</a>をお読みください。"
+      extension_text: "拡張機能の開発に興味をお持ちですか？ <a>拡張機能ドキュメント</a>をお読みください。"
+      features_text: "機能の改良のアイデアをお持ちですか？ <a>Featuresタグ</a>をつけてご連絡ください。"
+      support_text: "バグを発見しましたか？ 私たちのフォーラムに、<a>Supportタグ</a>をつけてご報告ください。"
+      troubleshooting_text: "何か問題が発生しましたか？ <a>トラブルシューティング ドキュメント</a>の手順に従ってください。"
+      version_text: "Flarumをお試しいただきありがとうございます！ バージョン {version} をご利用です。"
       welcome_text: "Flarum Betaへようこそ!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -71,8 +71,8 @@ core:
       icon_label: アイコン
       icon_text: "<a>FontAwesome</a>のフォントアイコンから専用のアイコンを設定することができます。入力する際に'fa-'のプレフィックスは必要ありません。"
       name_label: 名前
-      plural_placeholder: 複数 (e.g. cars)
-      singular_placeholder: 単体 (e.g. car)
+      plural_placeholder: 複数形 (例 cars)
+      singular_placeholder: 単数形 (例 car)
       submit_button: => core.ref.save_changes
       title: グループを作成
 
@@ -84,23 +84,23 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP Account
+      account_heading: SMTPアカウント
       addresses_heading: メールアドレス
       driver_label: Driver("SMTP"推奨)
       encryption_label: 暗号化方式(SSL/TLS)
-      from_label: Sender
+      from_label: 送信元名
       heading: => core.ref.email
       host_label: ホスト名
       password_label: => core.ref.password
       port_label: ポート番号
-      server_heading: SMTP Server
+      server_heading: SMTPサーバー
       submit_button: => core.ref.save_changes
-      text: メール利用のためにSMTP情報を設定します。
+      text: メール送信用のSMTP情報を設定します。
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Extensionを追加
+      add_button: 拡張機能を追加
       settings_button: => core.ref.settings
       uninstall_button: アンインストール
 
@@ -119,10 +119,10 @@ core:
       basics_button: 基本設定
       basics_text: "あなたのフォーラムの言語、設定、その他の基本設定を変更します。"
       dashboard_button: ダッシュボード
-      dashboard_text: Your forum at a glance.
+      dashboard_text: あなたのフォーラムの概況をお知らせします。
       email_button: => core.ref.email
       email_text: "メール環境を設定します。"
-      extensions_button: Extensions
+      extensions_button: 拡張機能
       extensions_text: あなたのフォーラムに特別な機能を追加、または新しく機能を作成します。
       permissions_button: 権限
       permissions_text: 権限を設定します。
@@ -136,7 +136,7 @@ core:
       delete_discussions_label: FAQを削除
       delete_posts_forever_label: 投稿を完全に削除
       edit_and_delete_posts_label: 投稿の編集・削除
-      global_heading: Global
+      global_heading: 全体
       moderate_heading: モデレート
       new_group_button: 新しいグループ
       participate_heading: 参加
@@ -146,18 +146,18 @@ core:
       sign_up_label: サインアップ
       start_discussions_label: 新規FAQ
       view_discussions_label: FAQを閲覧
-      view_post_ips_label: 投稿IPアドレスの表示
+      view_post_ips_label: 投稿のIPアドレスの表示
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: 追放
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
+      allow_indefinitely_button: 無期限
+      allow_some_minutes_button: "{count}分間|{count}分間"
+      allow_ten_minutes_button: 10分間
       allow_until_reply_button: 次の返信まで
       everyone_button: 誰でも
       members_button: => core.group.members
-      signup_closed_button: 閉じる
-      signup_open_button: 開く
+      signup_closed_button: クローズド
+      signup_open_button: オープン
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -183,7 +183,7 @@ core:
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: パスワードリセット用のメールを送信する
-      text: あなたなアカウントのパスワードをリセットするためのURLがメールアドレスに送信されます。
+      text: アカウントのパスワードをリセットするためのURLが、登録メールアドレスに送信されます。
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -195,22 +195,22 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: 内容を入力..
-      discard_confirmation: "FAQの内容がありません。 破棄しますか?"
+      body_placeholder: 内容を入力...
+      discard_confirmation: "FAQの内容がありません。破棄しますか?"
       submit_button: 投稿する
       title: => core.ref.start_a_discussion
       title_placeholder: FAQタイトル
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "変更が保存されていません。 廃棄しますか?"
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "変更はまだ保存されていません。廃棄しますか?"
+      post_link: "{discussion} の {number}番目の投稿"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "返信が投稿されていません。 破棄しますか?"
+      discard_confirmation: "返信はまだ投稿されていません。破棄しますか?"
       posted_message: 返信が投稿されました。
       submit_button: 返信する
       view_button: プレビュー
@@ -218,7 +218,7 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: 返信できません
-      cannot_reply_text: このFAQに返信する権限がありません。.
+      cannot_reply_text: このFAQに返信する権限がありません。
       delete_button: => core.ref.delete
       delete_confirmation: "本当にこのFAQを削除してもよろしいですか?"
       delete_forever_button: => core.ref.delete_forever
@@ -238,8 +238,8 @@ core:
       empty_text: 該当するFAQがありません。
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: 既読にする
-      replied_text: "{username} 返信 {ago}"
-      started_text: "{username} 開始 {ago}"
+      replied_text: "{username} が {ago} に返信"
+      started_text: "{username} が {ago} に開始"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -253,8 +253,8 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: パスワードをリセットするためのリンクが記載されたメールをお送りしました。2～3分以内にメールを受信しない場合は、迷惑メールフォルダを確認してください。
-      not_found_message: そのメールアドレスで登録ユーザーがありません。
+      email_sent_message: パスワードをリセットするためのリンクが記載されたメールをお送りしました。2～3分以内にメールが届かない場合は、迷惑メールフォルダをご確認ください。
+      not_found_message: そのメールアドレスは登録されていません。
       submit_button: パスワードを復旧する
       text: 指定されたメールアドレスにパスワードリセット用のメールを送信しました。
       title: パスワードを紛失
@@ -283,19 +283,19 @@ core:
       latest_button: 更新順
       newest_button: 新着順
       oldest_button: 古い順
-      relevance_button: 関連
-      top_button: Top
+      relevance_button: 関連度順
+      top_button: トップ
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "パスワードを忘れましたか?"
-      invalid_login_message: 入力された情報に正しくない情報が含まれています。
+      forgot_password_link: "パスワードをお忘れですか？"
+      invalid_login_message: 入力された情報が正しくありません。
       password_placeholder: => core.ref.password
-      remember_me_label: Remember me for two weeks
-      sign_up_text: "アカウント登録がまだですか? <a>サインアップ</a>してください。"
+      remember_me_label: ログインしたままにする
+      sign_up_text: "アカウント登録がまだですか？ <a>サインアップ</a>してください。"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: ユーザー名 or Email
+      username_or_email_placeholder: ユーザー名またはメールアドレス
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -308,8 +308,8 @@ core:
     # These translations are used by tooltips displayed for individual posts.
     post:
       edited_text: 更新
-      edited_tooltip: "{username} が {ago}に編集しました"
-      number_tooltip: "Post #{number}"
+      edited_tooltip: "{username} が {ago} に編集しました"
+      number_tooltip: "{number}番目の投稿"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -320,22 +320,22 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: 元の投稿
-      unread_text: "{count}件 未読"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      now_link: 最新の投稿
+      original_post_link: 最初の投稿
+      unread_text: "{count}件の未読"
+      viewing_text: "{count}件中 {index}番目|{count}件中 {index}番目"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
       discussion_renamed_old_tooltip: '元のタイトル: "{old}"'
-      discussion_renamed_text: "{username} は {new}にタイトルを変更しました。"
+      discussion_renamed_text: "{username} は {new} にタイトルを変更しました。"
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} 後"
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'すべてのFAQについて "{query}" を検索'
       discussions_heading: => core.ref.discussions
       users_heading: ユーザー
 
@@ -347,8 +347,8 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: FAQ名が変更されました
-      privacy_disclose_online_label: 自分がオンラインの時にその情報を他ユーザーに表示することを許可する
+      notify_discussion_renamed_label: FAQ名が変更されたとき
+      privacy_disclose_online_label: 自分のオンライン状態を他ユーザーに表示することを許可する
       privacy_heading: プライバシー
       title: => core.ref.settings
 
@@ -356,7 +356,7 @@ core:
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "すでにアカウントをお持ちですか? <a>ログイン</a>"
+      log_in_text: "すでにアカウントをお持ちですか？ <a>ログイン</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
@@ -370,7 +370,7 @@ core:
       avatar_upload_tooltip: アバターをアップロード
       bio_placeholder: 自己紹介をしましょう
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
+      in_discussion_text: "{discussion} にて"
       joined_date_text: "{ago} に参加"
       online_text: オンライン
       posts_load_more_button: => core.ref.load_more
@@ -379,15 +379,15 @@ core:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: コントロール
+      button: 操作
       delete_button: => core.ref.delete
-      delete_confirmation: "本当にこのユーザーを削除してもよろしいですか？このユーザーが投稿した内容は全て削除されます。"
+      delete_confirmation: "本当にこのユーザーを削除してもよろしいですか？ このユーザーが投稿した内容は全て削除されます。"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: アカウント有効化メールを再送信する
+      resend_button: アカウント確認メールを再送信する
       sent_message: 送信しました
 
   # Translations in this namespace are used by the forum and admin interfaces.
@@ -399,7 +399,7 @@ core:
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[削除済み]"
 
     # These translations are displayed as error messages.
     error:
@@ -415,16 +415,16 @@ core:
 
     # These translations are used to punctuate a series of items.
     series:
-      glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      glue_text: "、 "
+      three_text: "{first} や {second}、 {third}"
+      two_text: "{first} や {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: このサイトはブラウザのJavaScriptを有効にすることでより美しく見ることができます。
+      javascript_disabled_message: このサイトは、ブラウザのJavaScriptを有効にすることでより美しく見ることができます。
       load_error_message: サイトを読み込む際に異常が発生しました。
       loading_text: 読み込み中...
 
@@ -454,29 +454,29 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: アカウントを有効化
+      subject: アカウントを有効化する
       body: |
-        {username} さん、こんにちは!
+        {username} さん、こんにちは！
 
-        {forum}へのサインアップのリクエストが送信されました。
+        {forum} への登録のリクエストが送信されました。
 
-        こちらのURLにアクセスすると作成したアカウントを有効化することができます:
+        こちらのURLにアクセスすると、作成したアカウントを有効化することができます:
         {url}
 
-        このメールに身に覚えがない場合は、お手数ですが削除してください。
+        このメールに身に覚えがない場合は、お手数ですがメールを削除してください。
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
       subject: 新しいメールアドレスの確認
       body: |
-        {username} さん、こんにちは!
+        {username} さん、こんにちは！
 
-        {forum} で作成したのアカウントのメールアドレス変更のリクエストが送信されました。
+        {forum} のアカウントで、メールアドレス変更のリクエストが送信されました。
 
         こちらのURLにアクセスするとアカウントのメールアドレスを変更することができます:
         {url}
 
-        このメールに身に覚えがない場合は、お手数ですが削除してください。
+        このメールに身に覚えがない場合は、お手数ですがメールを削除してください。
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -484,12 +484,12 @@ core:
       body: |
         {username} さん、こんにちは!
 
-        あなたの{forum}アカウントのパスワードのリセットリクエストを誰かが送信しました。
+        {forum} のアカウントで、パスワードリセットのリクエストを誰かが（おそらくあなたが）送信しました。
 
-        このURLにアクセスするとアカウントのパスワードをリセットすることができます。:
+        このURLにアクセスするとアカウントのパスワードをリセットすることができます:
         {url}
 
-        このメールに身に覚えがない場合は、お手数ですが削除してください。
+        このメールに身に覚えがない場合は、お手数ですがメールを削除してください。
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -501,7 +501,7 @@ core:
     change_email: メールアドレスの変更
     change_password: パスワードの変更
     confirm_password: パスワードの確認
-    confirmation_email_sent: "{email} にアカウント有効化メールを送信しました。 届かない場合は迷惑メールボックスをご確認ください。"
+    confirmation_email_sent: "{email} にアカウント確認メールを送信しました。 メールが届かない場合は、迷惑メールボックスをご確認ください。"
     delete: 削除
     delete_forever: 完全削除
     discussions: FAQ
@@ -511,7 +511,7 @@ core:
     log_in: ログイン
     log_out: ログアウト
     mark_all_as_read: すべて既読にする
-    next_page: 次ページ
+    next_page: 次のページ
     notifications: 通知
     okay: OK                                     # Referenced by flarum-tags.yml
     password: パスワード
@@ -539,5 +539,5 @@ core:
     guests: ゲスト
     member: メンバー
     members: メンバー
-    mod: モデレータ
-    mods: モデレータ
+    mod: モデレーター
+    mods: モデレーター

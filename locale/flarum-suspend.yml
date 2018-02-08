@@ -22,7 +22,7 @@ flarum-suspend:
       not_suspended_label: 停止を解除
       status_heading: 停止状況
       submit_button: => core.ref.save_changes
-      title: "{username} アカウントを停止する"
+      title: "{username} のアカウントを停止する"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
@@ -30,4 +30,4 @@ flarum-suspend:
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: Suspend
+      suspend_button: アカウント停止
